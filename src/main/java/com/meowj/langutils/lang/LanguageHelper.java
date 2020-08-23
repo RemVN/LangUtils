@@ -1,8 +1,7 @@
 package com.meowj.langutils.lang;
 
-import com.meowj.langutils.LangUtils;
-import com.meowj.langutils.lang.convert.*;
-import com.meowj.langutils.locale.LocaleHelper;
+import java.util.Map;
+
 import org.bukkit.Material;
 import org.bukkit.block.Biome;
 import org.bukkit.enchantments.Enchantment;
@@ -10,9 +9,12 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import java.util.Map;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.inventory.meta.SkullMeta;
+
+import com.meowj.langutils.LangUtils;
+import com.meowj.langutils.lang.convert.EnumLang;
+import com.meowj.langutils.locale.LocaleHelper;
 
 
 public class LanguageHelper {

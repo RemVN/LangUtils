@@ -9,14 +9,15 @@
  */
 package com.meowj.langutils;
 
-import com.meowj.langutils.lang.LanguageRegistry;
-import com.meowj.langutils.lang.convert.EnumLang;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.plugin.java.JavaPlugin;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
+
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import com.meowj.langutils.lang.LanguageRegistry;
+import com.meowj.langutils.lang.convert.EnumLang;
 
 /**
  * Created by Meow J on 6/20/2015.

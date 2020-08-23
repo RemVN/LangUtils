@@ -1,13 +1,21 @@
 package com.meowj.langutils.lang.convert;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.lang.reflect.Type;
+import java.nio.charset.Charset;
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Objects;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.meowj.langutils.LangUtils;
-
-import java.io.*;
-import java.lang.reflect.Type;
-import java.nio.charset.Charset;
-import java.util.*;
 
 /**
  * Created by Meow J on 6/20/2015.

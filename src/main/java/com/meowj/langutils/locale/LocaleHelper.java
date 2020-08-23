@@ -10,14 +10,16 @@
 
 package com.meowj.langutils.locale;
 
+import java.util.Locale;
+import java.util.regex.Matcher;
+
+import org.bukkit.entity.Player;
+
 import com.meowj.langutils.lang.LanguageHelper;
+
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.TranslatableComponent;
-import org.bukkit.entity.Player;
-
-import java.util.Locale;
-import java.util.regex.Matcher;
 
 /**
  * Created by Meow J on 6/20/2015.
